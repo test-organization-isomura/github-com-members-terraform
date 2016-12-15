@@ -22,4 +22,4 @@ deployment:
       - git config --global user.name "bon-terra"
       - git add -f terraform.tfstate
       - git commit -m "update terraform state [ci skip]"
-      - git push origin production
+      - git push origin master
