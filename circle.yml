@@ -18,8 +18,8 @@ deployment:
     branch: master
     commands:
       - ~/terraform/terraform apply
-      - git config --global user.email "terraform.github.com@excite.jp"
-      - git config --global user.name "terraform.github.com"
+      - git config --global user.email "yuru.manga@gmail.com"
+      - git config --global user.name "bon-terra"
       - git add -f terraform.tfstate
       - git commit -m "update terraform state [ci skip]"
       - git push origin production
