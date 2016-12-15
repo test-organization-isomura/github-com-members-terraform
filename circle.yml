@@ -1,5 +1,5 @@
 machine:
-　　　　environment:
+  environment:
     TERRAFORM_VER: 0.7.13
 dependencies:
   cache_directories:
