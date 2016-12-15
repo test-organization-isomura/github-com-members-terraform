@@ -1,5 +1,5 @@
 variable "github_token" {
-  description = "6540eeb60b6f06c446b00016bd79e0386685a6fc"
+  description = "4df19a95abdf9057e46fb91d556eef8dcfa5cd13"
 }
 
 variable "github_organization" {
