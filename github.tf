@@ -10,14 +10,3 @@ provider "github" {
   token = "${var.github_token}"
   organization = "${var.github_organization}"
 }
-
-
-
-////// DO NOT append user "bon-terra" to prevent accidents!!
-
-//// Owner
-// isomura
-resource "github_membership" "isomura" {
-  username = "isomura"
-  role = "admin"
-}
